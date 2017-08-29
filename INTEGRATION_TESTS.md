@@ -18,6 +18,6 @@ mvn -Popenshift-it verify
 ### Undeploy the booster
 
 ```
-mvn -Popenshift fabric8:deploy
+mvn -Popenshift fabric8:undeploy
 ```
 
