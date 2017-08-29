@@ -62,7 +62,8 @@ public class OpenshiftIT {
 
     @AfterClass
     public static void teardown() throws Exception {
-        openshift.cleanup();
+        //openshift.cleanup();
+        System.out.println("Use 'mvn -Popenshift fabric8:undeploy' to remove the deployment");
     }
 
     @Test
